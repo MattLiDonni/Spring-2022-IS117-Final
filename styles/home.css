@@ -1,0 +1,114 @@
+
+/* Matthew LiDonni */
+/* IS 117          */
+
+
+body {
+    background-color: #23202a;
+    width: 99%;
+    color: #afafaf;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.box1, .box2 {
+    background-color: #18151d;
+}
+
+.box1 h2, .box2 h4 {
+    color: #afafaf;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.box1 p, .box2 p {
+    color: #afafaf; 
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.box1 {
+    align-self: center;
+    border: 8px solid #18151d;
+    border-radius: 0;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.box1 > img {
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 4px solid #18151d;
+}
+
+.box2 {
+    align-self: center;
+    border: 8px solid #18151d;
+    border-radius: 0;
+    clear:both;
+    margin-left: 5px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.box2 h4 {
+    font-size: 24px;
+}
+
+.box2 > .revcontent {
+    padding-left: 10px;
+    font-size: 12px;
+    display:contents;
+}
+
+.box2 > img {
+    width: 40%;
+    object-fit: cover;
+    margin: 0;
+    float: left;
+    padding-right: 10px;
+}
+
+.myNav {
+    margin-top: 15px;
+}
+
+.dropdown-item {
+    color: #afafaf;
+}
+
+.dropdown-menu, .dropdown-item {
+    background-color: #414141;
+  }
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #5b5b5b;
+    color: #afafaf;
+    
+}
+
+.navbar-dark {
+    background-color: #18151d;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width:fill;
+}
+
+.form-control {
+    color: #afafaf;
+    background-color: #414141;
+    border-color: #23202a;
+}
+.form-control:focus{
+    color: #afafaf;
+    background-color: #3b3b3b;
+    border-color: #23202a;
+}
