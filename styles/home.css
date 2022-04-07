@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .box1, .box2 {
@@ -100,6 +100,7 @@ body {
     position: fixed;
     top: 0;
     width:fill;
+    height: 10%;
 }
 
 .form-control {
@@ -111,4 +112,55 @@ body {
     color: #afafaf;
     background-color: #3b3b3b;
     border-color: #23202a;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.announcebox h4 {
+    text-align: center;
+}
+
+.announcebox ul li {
+    font-weight: bold;
+}
+.announcebox p {
+    font-size: 90%;
+}
+
+
+/* footer */
+a {
+    text-decoration: none;
+    color: #afafaf;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+}
+
+/* form elements */
+select, textarea {
+    background-color: #414141;
+    color: #afafaf;
+}
+
+option:hover option:focus {
+    background-color: #3b3b3b;
+}
+
+.btn {
+    background-color: #40354a;
+    border: 0;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #302838;
+    border: 0;
 }

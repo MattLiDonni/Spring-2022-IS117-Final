@@ -55,24 +55,34 @@
     </ul>
     </div>
             </nav>
-
-        <div class="container" style="padding-top: 65px;">
+    <div class="content">
+        <div class="container" style="padding-top: 65px; padding-left: 25%; padding-right: 25%;">
           <div class="row">
             <form action="">
                 <div class="form-group">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" class="form-control" id="firstname"
-                           placeholder="First name" name="firstname">
+                    <label for="name">Your Name:</label>
+                    <input type="text" class="form-control" id="name"
+                           placeholder="Name" name="name">
                 </div>
-                <div class="form-group">
-                    <label for="lastname">Last Name:</label>
-                    <input type="text" class="form-control" id="lastname"
-                           placeholder="Last name" name="lastname">
-                </div>
+                
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" class="form-control" id="email"
                            placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="reason">Reason for contact:</label>
+                    <select name="reason" id="reason">
+                        <option value="recommend">Review recommendation/Request to update review</option>
+                        <option value="correction">Correction about something</option>
+                        <option value="discussion">Talk about games</option>
+                        <option value="issue">Website Issues</option>
+                        <option value="other">Other</option>
+                      </select>
+                </div>
+                <div>
+                    <label for="desc">Describe your issue/request:</label>
+                    <textarea id="paragraph" name="paragraph" rows="6" cols="75" placeholder="Hi, I am reaching out to you because..."></textarea>
                 </div>
                 <div class="form-group form-check">
                     <label class="form-check-label">
@@ -84,14 +94,12 @@
             </form>
         </row>
 </div>
-        </div>
- <footer class="footer page-footer font-small ">
-     <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
-        </div>
-     </div>
-  </footer>
+</div>
+</div>
+<footer>
+    <p style="float:left; margin-left: 30%;">&copy; Matthew LiDonni 2022</p>
+    <p style="float:right; margin-right: 30%;"><a href="">Privacy Policy</a> | <a href="">Terms of Service</a></p>
+</footer>
 </div>
 
 
