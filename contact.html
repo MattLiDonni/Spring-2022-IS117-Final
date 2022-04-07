@@ -60,19 +60,21 @@
           <div class="row">
             <form action="">
                 <div class="form-group">
-                    <label for="name">Your Name:</label>
-                    <input type="text" class="form-control" id="name"
-                           placeholder="Name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Required" name="email" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email"
-                           placeholder="Enter email" name="email">
+                    <label for="name">Your Name:</label>
+                    <input type="text" class="form-control" id="name"
+                           placeholder="Optional" name="name">
                 </div>
+
                 <div class="form-group">
                     <label for="reason">Reason for contact:</label>
-                    <select name="reason" id="reason">
+                    <select name="reason" id="reason" required>
+                        <option disabled selected value>Required</option>
                         <option value="recommend">Review recommendation/Request to update review</option>
                         <option value="correction">Correction about something</option>
                         <option value="discussion">Talk about games</option>
@@ -82,7 +84,7 @@
                 </div>
                 <div>
                     <label for="desc">Describe your issue/request:</label>
-                    <textarea id="paragraph" name="paragraph" rows="6" cols="75" placeholder="Hi, I am reaching out to you because..."></textarea>
+                    <textarea id="paragraph" name="paragraph" rows="6" cols="75" required placeholder="Hi, I am reaching out to you because..."></textarea>
                 </div>
                 <div class="form-group form-check">
                     <label class="form-check-label">
