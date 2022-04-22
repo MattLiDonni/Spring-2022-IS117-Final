@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
@@ -58,7 +59,7 @@
     <div class="content">
         <div class="container" style="padding-top: 65px; padding-left: 25%; padding-right: 25%;">
           <div class="row">
-            <form action="">
+            <form action="MAILTO:m.lidonni16@gmail.com?subject=GameReviews Site" method="post" enctype="text/plain">
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" class="form-control" id="email"
@@ -67,13 +68,13 @@
                 
                 <div class="form-group">
                     <label for="name">Your Name:</label>
-                    <input type="text" class="form-control" id="name"
+                    <input type="text" class="form-control"
                            placeholder="Optional" name="name">
                 </div>
 
                 <div class="form-group">
                     <label for="reason">Reason for contact:</label>
-                    <select name="reason" id="reason" required>
+                    <select name="subject" value="Subject" required>
                         <option disabled selected value>Required</option>
                         <option value="recommend">Review recommendation/Request to update review</option>
                         <option value="correction">Correction about something</option>

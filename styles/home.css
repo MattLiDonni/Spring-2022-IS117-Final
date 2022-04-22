@@ -3,14 +3,196 @@
 /* IS 117          */
 
 
+
+/* Phones/small devices */
+@media only screen and (max-width: 760px) {
+    body {
+        background-color: #23202a;
+        color: #afafaf;
+        float: clear;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .content {
+        margin: 0 auto;
+        margin-top: 6em;        
+        
+    }
+
+    .box1, .box2 {
+        background-color: #18151d;
+    }
+    
+    .box1 h2, .box2 h4 {
+        color: #afafaf;
+        text-align: left;
+    }
+    
+    .box1 p, .box2 p {
+        color: #afafaf; 
+        text-align: left;
+    }
+    
+    
+    .box1 {
+        align-self: center;
+        border: 8px solid #18151d;
+        border-radius: 0;
+        width: 100%;
+    }
+    .box1:hover {
+        box-shadow: #ffffff;
+    }
+    
+    .box1 > img {
+        object-fit: cover;
+        width: 100%;
+        border-bottom: 4px solid #18151d;
+    }
+    
+    .box2 {
+        align-self: center;
+        border: 8px solid #18151d;
+        border-radius: 0;
+        clear:both;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    
+    .box2 h4 {
+        font-size: 24px;
+    }
+    
+    .box2 > .revcontent {
+        padding-left: 10px;
+        font-size: 12px;
+        display:contents;
+    }
+    
+    .box2 > img {
+        width: 40%;
+        object-fit: cover;
+        margin: 0;
+        float: left;
+        padding-right: 10px;
+    }
+    .col-sm-7 {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .col-sm-5 {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    
+    .myNav {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        background-color: #18151d;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .dropdown-item {
+        color: #afafaf;
+    }
+
+    .dropdown-menu, .dropdown-item {
+        background-color: #302838;
+    }
+
+    .dropdown-item:hover, .dropdown-item:focus {
+        background-color: #5b5b5b;
+        color: #afafaf;
+    
+    }   
+
+    .navbar-dark {
+        background-color: #18151d;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: fill;
+        height: 10%;
+        padding: 0;
+    }
+
+    .navbar-brand {
+        padding-left: 1em;
+        padding-top: auto;
+    }
+
+    .nav-link {
+        margin: 1.5em;
+        font-size: 120%;
+    }
+
+
+    ul.navbar-nav {
+        padding: 0;
+    }
+    ul.navbar-nav li {
+        border-top: .1025em solid #302838;
+        border-bottom: .25em solid #302838;
+        border-left: .25em solid #302838;
+        border-right: .25em solid #302838;
+    }
+    
+    .announcebox h4 {
+        text-align: center;
+    }
+    
+    .announcebox ul li {
+        font-weight: bold;
+    }
+    .announcebox p {
+        font-size: 90%;
+    }
+    a {
+        text-decoration: none;
+        color: #afafaf;
+    }
+    a:hover, a:focus {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    footer {
+        text-align: center;
+        bottom: 0;
+    }
+    .leftfoot, .rightfoot {
+        float: clear;
+        margin: 0 auto;
+    }
+    
+    
+    
+}
+
+
+
+/* IPads/PCs/larger devices */
+@media only screen and (min-width: 760px) {
+    
 body {
     background-color: #23202a;
     width: 99%;
     color: #afafaf;
+    float: clear;
 }
 
+
 .content {
-    margin-top: 80px;
+    margin-top: 6em;
 }
 
 .box1, .box2 {
@@ -37,6 +219,9 @@ body {
     border-radius: 0;
     margin-left: 30px;
     margin-right: 5px;
+}
+.box1:hover {
+    box-shadow: #ffffff;
 }
 
 .box1 > img {
@@ -78,8 +263,13 @@ body {
     margin-top: 15px;
 }
 
+.navbar-collapse {
+    background-color: #18151d;
+}
+
 .dropdown-item {
     color: #afafaf;
+    
 }
 
 .dropdown-menu, .dropdown-item {
@@ -146,6 +336,16 @@ footer {
     bottom: 0;
 }
 
+.leftfoot {
+    float: left;
+    margin-left: 20%;
+}
+
+.rightfoot {
+    float: right;
+    margin-right: 20%;
+}
+
 /* form elements */
 select, textarea {
     background-color: #414141;
@@ -165,3 +365,7 @@ option:hover option:focus {
     background-color: #302838;
     border: 0;
 }
+
+
+
+} 
