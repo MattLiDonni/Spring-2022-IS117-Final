@@ -1,8 +1,6 @@
+/* DEVELOPER: Matthew LiDonni, IS117-104, Spring 2022 */
 
-/* Matthew LiDonni */
-/* IS 117          */
 
-/* Phones/small devices */
 @media only screen and (max-width: 760px) {
     body {
         background-color: #23202a;
