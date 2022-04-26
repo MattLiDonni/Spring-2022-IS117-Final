@@ -26,6 +26,7 @@
         border-radius: 5px; /* 5px rounded corners */
         margin: 0 auto;
         margin-top: 1.5em;
+        background-color: #18151d;
     }
 
     .reviewPage_left, .reviewPage_right {
@@ -38,6 +39,10 @@
     }
 
     .embedContainer {
+        display: none;
+    }
+
+    .reviewCard-preview {
         display: none;
     }
 
@@ -66,6 +71,7 @@
         transition: 0.3s;
         border: 3px solid #18151d;
         border-radius: 5px;
+        background-color: #18151d;
     }
 
     .reviewCard:hover {
@@ -148,6 +154,12 @@
     iframe {
         display: block;
         margin: 0 auto;
+    }
+
+    .projBreakdown {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 5em;
     }
 
     
